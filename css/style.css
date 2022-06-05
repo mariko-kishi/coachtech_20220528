@@ -2,119 +2,65 @@
 
 /* headerここから */
 .headder {
-  margin-left: 70px;
-  margin-right: 70px;
-  align-items: center;
+  display: flex;
+  height: 70px;
+  line-height: 70px;
+  justify-content: space-between;
+  margin-right: 80px;
 }
 
 .header_logo_img {
   width: 150px;
-  height: 50px;
-  display: flex;
-  text-align: left;
-  display: flex;
-  margin-left: 100px;
+  margin-left: 40px;
 }
-
+site-menu{
+  margin-right: 40px;
+}
 
 .header_list {
   display: flex;
   list-style: none;
-  margin-left: 5px;
-  padding-bottom: 20px;
+  justify-content: space-between;
+  
+} 
+.header_list li{
+  margin-right: 40px;
+}
+.header_list_link{
+  height: 70px;
+  display: inline-block;
 }
 /* headerここまで */
-/* mainここから */
 /* firstview始まり */
-.firstview {
+.firstview{
+  display: flex;
+  margin-right: 80px;
+}
+.firstview_img{
   position: relative;
-  margin-top: 50px;
-  margin-left: 800px;
-  margin-right: 50px;
-}
-h1{
-font-family: 'Gorditas', cursive;
-position: absolute;
-font-size: 50px;
-color: #c71585;
-top: 15%;
-left: -25%;
-}
-.firstview_heading {
-  position: absolute;
-  font-size: 50%;
-}
-
-
-
-div > span{
-  color: #20B2AA;
-}
-p{
-  font-size: 20px;
-  font-weight: bold;
-  padding: 5px;
-} */
-.firstview_img {
+  width: 40%;
+  height:30%;
   margin: 0 0 0 auto;
   display: block;
-  width: 60%;
+  width: 50%;
 }
-/* firstviewおわり */
-/* news始まり */
-.common_sub_title{
-  font-family: 'Gorditas', cursive;
-  text-align: center;
-  font-size: 10px;
+h1{
+  position: absolute;
+  top: 13%;
+  left: 28%;
+  font-family: 'Macondo', cursive;
+  font-size: 60px;
+  padding-bottom: 30px;
+  line-height: 100px;
+  z-index: 2;
   color: #c71585;
-  }
-h2{
-  text-align: center;
-  color: #a9a9a9;
-  font-size: 20px;
-  padding: 10px;
 }
-
-
-li{
-  display: block;
-  text-align: center;
-  border-top: solid 1px #CCC;   border-bottom:  solid 1px #ddd; 
-  padding: 20px;
-  }
-
-
-/* newsおわり */
-/* about始まり */
-.about{
+h1 span{
+  color: #20B2AA;
+}
+h1>p{
   display: flex;
-  background-color: #ebebeb;
-  padding: 30px 0;
-  margin-top: 200px;
-  
-  /* width: 60%; 
-  height: 40%;
-  margin: 60px auto;  */
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;;
 }
-.about_img{
-  position: absolute;
-  width: 30%;
-  margin-left: 1000px;
-  margin-top: 40px;
-}
-.about_card_text{
-  position: absolute;
-  color: #999;
-  line-height: 20px;
-  float: left;
-}
-
-
-
-
-
-
-
-
-
-

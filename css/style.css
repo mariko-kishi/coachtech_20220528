@@ -34,33 +34,84 @@ site-menu{
 /* firstview始まり */
 .firstview{
   display: flex;
+  position: relative;
   margin-right: 80px;
 }
 .firstview_img{
-  position: relative;
   width: 40%;
   height:30%;
   margin: 0 0 0 auto;
   display: block;
   width: 50%;
 }
-h1{
+.firstview_text{
   position: absolute;
   top: 13%;
-  left: 28%;
+  left: 33%;
   font-family: 'Macondo', cursive;
   font-size: 60px;
-  padding-bottom: 30px;
-  line-height: 100px;
+  line-height: 90px;
   z-index: 2;
   color: #c71585;
 }
 h1 span{
-  color: #20B2AA;
+  color:#40e0d0 ;
 }
-h1>p{
-  display: flex;
+h5{
   font-size: 20px;
-  font-weight: bold;
-  padding: 10px;;
+  line-height: 15px;
+  margin-top: 40px;
 }
+h5 span{
+  color: #40e0d0;
+}
+p{
+  color: #A9A9A9;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 15px;
+  margin-top: 10px;
+}
+/* news始まり */
+.news{
+  text-align: center;
+  width: 80%; 
+  margin: 0 auto;
+}
+.news_list{
+  display: inline-block;
+}
+.common_sub_title{
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Macondo', cursive;
+  font-size: 8px;
+  color: #c71585;
+}
+h2{
+  text-align: left;
+  color:#808080 ;
+  margin-bottom: 10px;
+}
+li{
+  line-height: 20px;
+  padding-top: 30px;
+}
+li span{
+  color: #A9A9A9;
+}
+.news_list_cat{
+  background-color: #c71585;
+  border-radius: 10px;
+  color: antiquewhite;
+  font-size: 15px;
+}
+.news_list_border{
+  display:block;
+  text-align: center;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  padding: 20px;
+}
+/* news終わり */

@@ -111,7 +111,8 @@ li span{
   border-radius: 20px;
   color: antiquewhite;
   font-size: 15px;
-  padding-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 .news_list_border{
@@ -131,10 +132,10 @@ li span{
   background-color: #F5F5F5;
 }
 .about_img{
+  display: flex;
   width: 360px;
   height: 250px;
-  margin-right: 16%;
-  float: right;
+  margin-left: 60%;
 }
 .common_sub_title_about{
   text-align: center;
@@ -150,8 +151,13 @@ li span{
   font-size: 25px;
 }
 .about_card_text{
+  display: block;
+  margin-left: 70px;
+  padding-bottom: 60px;
+  width: 35%;
+  font-size: 20px;
+  line-height: 35px;
   color: #808080;
   font: bold;
-  margin: 70px;
   
 }

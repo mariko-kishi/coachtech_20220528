@@ -70,48 +70,88 @@ p{
   font-family: 'Noto Serif JP', serif;
   font-size: 15px;
   font-weight: bold;
-  line-height: 15px;
-  margin-top: 10px;
+  line-height: 23px;
+  margin-top: 15px;
 }
 /* news始まり */
 .news{
-  text-align: center;
   width: 80%; 
   margin: 0 auto;
+  padding-left: 30%;
 }
 .news_list{
-  display: inline-block;
+  display: block;
+  width: 50%;
+  
 }
-.common_sub_title{
+.common_sub_title_news{
   text-align: left;
   margin-bottom: 10px;
   font-family: 'Macondo', cursive;
   font-size: 8px;
   color: #c71585;
 }
-h2{
+.comoon_ttl_news{
   text-align: left;
   color:#808080 ;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 25px;
 }
 li{
   line-height: 20px;
   padding-top: 30px;
 }
 li span{
+  display: inline;
   color: #A9A9A9;
+  padding-left: 40px; 
 }
 .news_list_cat{
   background-color: #c71585;
-  border-radius: 10px;
+  border-radius: 20px;
   color: antiquewhite;
   font-size: 15px;
+  padding-left: 30px;
+  text-align: center;
 }
 .news_list_border{
   display:block;
   text-align: center;
   border-top: solid 1px silver;
   border-bottom: solid 1px silver;
-  padding: 20px;
+  padding: 30px;
+  
 }
 /* news終わり */
+/* about始まり */
+.about{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #F5F5F5;
+}
+.about_img{
+  width: 360px;
+  height: 250px;
+  margin-right: 16%;
+  float: right;
+}
+.common_sub_title_about{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Macondo', cursive;
+  font-size: 8px;
+  color: #c71585;
+}
+.common_ttl_about{
+  text-align: center;
+  color: #808080;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.about_card_text{
+  color: #808080;
+  font: bold;
+  margin: 70px;
+  
+}

@@ -135,7 +135,8 @@ li span{
   display: flex;
   width: 360px;
   height: 250px;
-  margin-left: 60%;
+  margin-bottom: 50px;
+  margin-right: 210px;
 }
 .common_sub_title_about{
   text-align: center;
@@ -150,14 +151,17 @@ li span{
   margin-bottom: 30px;
   font-size: 25px;
 }
+.about_content{
+  display: flex;
+  justify-content: space-between;
+}
 .about_card_text{
   display: block;
-  margin-left: 70px;
   padding-bottom: 60px;
   width: 35%;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 35px;
   color: #808080;
   font: bold;
-  
+  margin-left: 120px;
 }

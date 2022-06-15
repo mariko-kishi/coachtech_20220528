@@ -67,7 +67,7 @@ h5 span{
 }
 p{
   color: #A9A9A9;
-  font-family: 'Noto Serif JP', serif;
+  /* font-family: 'Noto Serif JP', serif; */
   font-size: 15px;
   font-weight: bold;
   line-height: 23px;
@@ -121,7 +121,6 @@ li span{
   border-top: solid 1px silver;
   border-bottom: solid 1px silver;
   padding: 30px;
-  
 }
 /* news終わり */
 /* about始まり */
@@ -159,9 +158,33 @@ li span{
   display: block;
   padding-bottom: 60px;
   width: 35%;
-  font-size: 25px;
   line-height: 35px;
   color: #808080;
-  font: bold;
   margin-left: 120px;
+}
+p{
+  font-size: 18px;
+}
+/* about終わり */
+/* seavise始まり */
+.seavice{
+ width: 70%;
+  margin: 0 auto;
+}
+.common_sub_title_service{
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Macondo', cursive;
+  font-size: 8px;
+  color: #c71585;
+}
+.common_ttl_service{
+  text-align: left;
+  color: #808080;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.servise_content{
+display: grid;
+grid-template-columns: repeat(3, 50px);
 }

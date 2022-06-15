@@ -166,9 +166,9 @@ p{
   font-size: 18px;
 }
 /* about終わり */
-/* seavise始まり */
-.seavice{
- width: 70%;
+/* service始まり */
+.service{
+  width: 30%;
   margin: 0 auto;
 }
 .common_sub_title_service{
@@ -184,7 +184,26 @@ p{
   margin-bottom: 30px;
   font-size: 25px;
 }
-.servise_content{
-display: grid;
-grid-template-columns: repeat(3, 50px);
+.service_block{
+  display:flex;
+}
+.service_block_left{
+  width: 800%;
+  height: 200%;
+  background-color: #c71585;
+}
+.service_block_right{
+  width: 400%;
+  height: 200%;
+}
+.block_top{
+  width: 50%;
+  height: 100%;
+}
+.block_bottom{
+  width: 50%;
+  height: 100%;
+}
+p span{
+color: #ffffff;
 }

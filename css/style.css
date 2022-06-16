@@ -168,7 +168,7 @@ p{
 /* about終わり */
 /* service始まり */
 .service{
-  width: 30%;
+  width: 70%;
   margin: 0 auto;
 }
 .common_sub_title_service{
@@ -188,22 +188,30 @@ p{
   display:flex;
 }
 .service_block_left{
-  width: 800%;
-  height: 200%;
+  width: 50%;
   background-color: #c71585;
 }
 .service_block_right{
-  width: 400%;
-  height: 200%;
+  width: 50%;
 }
 .block_top{
-  width: 50%;
-  height: 100%;
+  width: 100%;
 }
 .block_bottom{
-  width: 50%;
-  height: 100%;
+  width: 100%;
 }
-p span{
+.service_text{
 color: #ffffff;
+text-align: center;
+}
+.span{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block_top{
+  background-color: #DB7093;
+}
+.block_bottom{
+  background-color: #FFE4E1;
 }

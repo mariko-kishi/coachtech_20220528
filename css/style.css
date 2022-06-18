@@ -187,7 +187,16 @@ p{
 .service_block{
   display:flex;
 }
+.service_img{
+  display: flex;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-right: 210px;
+}
 .service_block_left{
+  padding: 0 auto;
+  text-align: center;
   width: 50%;
   background-color: #c71585;
 }
@@ -202,16 +211,54 @@ p{
 }
 .service_text{
 color: #ffffff;
-text-align: center;
+text-align: start;
+line-height: 40px;
+padding-left: 110px;
+padding-right: 110px;
 }
-.span{
+p span{
   display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 20px;
 }
 .block_top{
   background-color: #DB7093;
 }
 .block_bottom{
   background-color: #FFE4E1;
+}
+/* serviceここまで */
+/* blogここから */
+.blog{
+  height: 60%;
+  margin-top: 100px;
+  background-color: #F5F5F5;
+}
+.blog_card{
+  display: flex;
+  justify-content: space-around;
+}
+.blog_img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.common_sub_title_blog{
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Macondo', cursive;
+  font-size: 8px;
+  color: #c71585;
+}
+.common_ttl_blog{
+  text-align: left;
+  color: #808080;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.blog_card_ttl{
+  width: 35%;
+  color: #808080;
 }

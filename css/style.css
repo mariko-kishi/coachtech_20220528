@@ -188,19 +188,18 @@ p{
   display:flex;
 }
 .service_img{
-  display: flex;
   width: 250px;
   height: 150px;
   margin-bottom: 50px;
-  margin-right: 210px;
 }
-.service_block_left{
+  .service_block_left{
   padding: 0 auto;
   text-align: center;
   width: 50%;
   background-color: #c71585;
 }
 .service_block_right{
+  text-align: center;
   width: 50%;
 }
 .block_top{
@@ -213,8 +212,8 @@ p{
 color: #ffffff;
 text-align: start;
 line-height: 40px;
-padding-left: 110px;
-padding-right: 110px;
+padding-left: 50px;
+padding-right: 50px;
 }
 p span{
   display: block;

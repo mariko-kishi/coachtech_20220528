@@ -188,6 +188,7 @@ p{
   display:flex;
 }
 .service_img{
+  margin-top: 30px;
   width: 250px;
   height: 150px;
   margin-bottom: 50px;
@@ -223,10 +224,25 @@ p span{
   font-size: 20px;
 }
 .block_top{
+  display: flex;
   background-color: #DB7093;
 }
 .block_bottom{
+  display: flex;
   background-color: #FFE4E1;
+}
+.service_img_block_right {
+  margin-top: 30px;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.service_text_block_right{
+  color: #ffffff;
+  text-align: start;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 /* serviceここまで */
 /* blogここから */
@@ -235,14 +251,17 @@ p span{
   margin-top: 100px;
   background-color: #F5F5F5;
 }
+.blog_img{
+  width: 250px;
+  height: 160px;
+  border: top left radius 20px;
+  border: top right radius 20px;
+  justify-content: space-between;
+  margin-left: 10px;
+}
 .blog_card{
   display: flex;
-  justify-content: space-around;
-}
-.blog_img{
-  width: 300px;
-  height: 200px;
-  margin-bottom: 50px;
+  width: 100%;
 }
 .common_sub_title_blog{
   text-align: left;
@@ -258,6 +277,27 @@ p span{
   font-size: 25px;
 }
 .blog_card_ttl{
-  width: 35%;
+  width: 63%;
+  background-color: #ffffff;
   color: #808080;
+  text-align: left;
 }
+.blog_block_left{
+  width: 30%;
+  height: 20%;
+  border-radius: 10%;
+}
+.blog_block_center{
+  width: 30%;
+}
+.blog_block_right{
+  width: 30%;
+}
+h3 p{
+  display: inline-block;
+}
+
+
+
+
+

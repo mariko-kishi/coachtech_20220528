@@ -257,11 +257,11 @@ p span{
   border: top left radius 20px;
   border: top right radius 20px;
   justify-content: space-between;
-  margin-left: 10px;
 }
 .blog_card{
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 .common_sub_title_blog{
   text-align: left;
@@ -286,17 +286,36 @@ p span{
   width: 30%;
   height: 20%;
   border-radius: 10%;
+  overflow: hidden;
 }
 .blog_block_center{
   width: 30%;
+  border-radius: 10%;
+  overflow: hidden;
 }
 .blog_block_right{
   width: 30%;
+  border-radius: 10%;
+  overflow: hidden;
 }
-h3 p{
+h3 {
   display: inline-block;
 }
-
+.blog_card_text{
+  display: flex;
+  font-size: 10px;
+  padding-right: 5px;
+}
+.tothe_listpage_btn{
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff5800, #8b00be);
+  text-align: center;
+  margin: 100px auto 0;
+  display: block;
+}
 
 
 

@@ -163,7 +163,7 @@ li span{
   margin-left: 120px;
 }
 p{
-  font-size: 18px;
+  font-size: 15px;
 }
 /* about終わり */
 /* service始まり */
@@ -247,16 +247,17 @@ p span{
 /* serviceここまで */
 /* blogここから */
 .blog{
-  height: 60%;
+  height: 100%;
   margin-top: 100px;
   background-color: #F5F5F5;
 }
 .blog_img{
   width: 250px;
   height: 160px;
-  border: top left radius 20px;
-  border: top right radius 20px;
+  border-radius: 20px 20px 0 0;
   justify-content: space-between;
+  padding-left: 50px;
+  margin-left: 5px;
 }
 .blog_card{
   display: flex;
@@ -277,10 +278,14 @@ p span{
   font-size: 25px;
 }
 .blog_card_ttl{
-  width: 63%;
   background-color: #ffffff;
-  color: #808080;
+  width: 230px;
+  height: 160px;
+  border-radius: 0 20px 0 20px;
+  justify-content: space-between;
   text-align: left;
+  padding-left: 50px;
+  margin-left: 50px;
 }
 .blog_block_left{
   width: 30%;
@@ -304,7 +309,7 @@ h3 {
 .blog_card_text{
   display: flex;
   font-size: 10px;
-  padding-right: 5px;
+  padding-left: 15px;
 }
 .tothe_listpage_btn{
   width: 300px;

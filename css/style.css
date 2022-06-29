@@ -258,7 +258,6 @@ p span{
   height: 160px;
   border-radius: 20px 20px 0 0;
   justify-content: space-around;
-  margin-left: 5px;
 }
 .blog_card{
   display: flex;
@@ -280,7 +279,7 @@ p span{
 }
 .blog_card_ttl{
   background-color: #ffffff;
-  width: 305px;
+  width: 300px;
   height: 160px;
   border-radius: 0 0 20px 20px;
   justify-content: space-between;
@@ -329,12 +328,15 @@ h3 {
   padding-bottom: 15px;
 }
 .tothe_listpage_btn {
-  width: 300px;
+  display: block;
+  margin: 30px auto 0px ;
+  width: 100px;
   color: #c71585;
-  background-color: #E6E6FA;
+  background-color: #ffffff;
   border-radius: 30px;
   text-align: center;
-  padding: 20px 40px;
+  padding: 15px 40px;
+  border: solid#c71585;
 }
 /* blogここまで */
 /* companyここから */
@@ -374,13 +376,46 @@ h3 {
   color: #808080;
   }
   /* companyここまで */
-  /* recruitここから */
-  .grid{
-    display: grid;
+  .recruit_interview_content{
+    display: flexbox;
   }
-
-
-
+  /* recruitここから */
+  .recruit{
+    width: 100%;
+    position: relative;
+    text-align: left;
+  }
+  .recruit_img{
+    display: block;
+    width: 50%;
+  }
+  .recruit_title{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+  }
+  /* recruitここまで */
+  /*  interviewここから*/
+  .interview{
+    width: 100%;
+    position: relative;
+    text-align: right;
+  }
+  .interview_img{
+    display: block;
+    width: 50%;
+  }
+  .interview_title{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+  }
 
 
 

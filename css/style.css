@@ -330,12 +330,11 @@ h3 {
 }
 .tothe_listpage_btn {
   width: 300px;
-  padding: 10px 0;
-  color: #ffffff;
-  background-color: #c71585;
+  color: #c71585;
+  background-color: #E6E6FA;
   border-radius: 30px;
   text-align: center;
-  margin: 100px auto 0;
+  padding: 20px 40px;
 }
 /* blogここまで */
 /* companyここから */
